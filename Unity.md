@@ -21,5 +21,12 @@
 * private : 선언한 해당 클래스에서만 사용이 가능하며, 해당 클래스의 메서드를 통해야 변수에 접근할 수 있다
 * meterial : 각각의 renderer컴포넌트마다, meterial속성을 가질 수 있다, 정의된 속성을 가지며, rendering의 색, 반사율, 텍스처 매핑을 조작
 * lerp : 선형 보간, 시작 색상과 목표 색상을 설정하여 두가지 색상 사이의 중간 색상을 생성 가능
+* particle collision : 파티클 시스템의 충돌을 구현할 때 사용
+    * enable dynamic colliders : 파티클이 움직일 때 동적으로 충돌 판정
+    * collider force : 파티클 충돌기반으로 가하는 힘
+    * bounce : 충돌 시 튕김 효과
+    * radius scale : 값을 조절해 충돌 범위 조절
+    * visualize bounds : 파티클 시스템 충돌 경계 시각화
+    * collides with : 충돌 판정을 수행할 대상 지정
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
