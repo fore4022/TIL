@@ -42,5 +42,10 @@
 * offset : 이동량을 나타내는 개념으로, 위치를 상대적으로 이동, 조정할 수 있다
 * size : gameobject나 요소의 차원을 나타내는 값
 * particlesystemdata : 파티클 시스템 데이터의 개념으로, 파티클 시스템의 속성과 동작을 정의하는 집합
+* intersects : 두 개의 객체, 형상이 교차하는지 여부를 확인하는 메서드, 함수
+    * bounds.intersects : 두 경계 상자의 교차 여부를 확인
+    * collider.intersects : collider클래스 메서드로 collider가 교차하는지의 여부를 확인
+    * ray.intersects : ray클래스 메서드로, ray와 형상, 객체가 교차하는지 여부를 확인
+    * serializable : attribute중 하나로, 구조체를 직렬화한다, 해당 클래스, 구조체를 노출시키며, 데이터 파일 저장과 네트워크 통신에 사용된다
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
