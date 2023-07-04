@@ -47,5 +47,8 @@
     * collider.intersects : collider클래스 메서드로 collider가 교차하는지의 여부를 확인
     * ray.intersects : ray클래스 메서드로, ray와 형상, 객체가 교차하는지 여부를 확인
     * serializable : attribute중 하나로, 구조체를 직렬화한다, 해당 클래스, 구조체를 노출시키며, 데이터 파일 저장과 네트워크 통신에 사용된다
+* textarea : attribute 중 하나로, 문자열 멤버 변수에 대한 다중 줄 편집
+* attribute : attribute를 사용시 코드에 대한 추가 정보 제공, 특정 동작을 지정, 클래스, 메서드, 프로퍼티, 필드 등의 멤버에 적용
+* tmpro(textmeshpro) : 고성능 텍스트 렌더링 솔루션, Text component보다 많은 기능과 세밀한 제어 제공, 정교한 텍스트 표현
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
