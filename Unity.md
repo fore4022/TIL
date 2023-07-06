@@ -13,6 +13,7 @@
 * yield return : 메서드, 이터레이터(컬렉션을 순회나 반복 처리 기능)블록의 값을 반환하며, 실행을 일시 중단
     * yield return null : 다음 프레임까지 대기
     * yield return new waitforseconds : 지정된 시간 만큼 대기
+    * yield return new waituntil : 주어진 조건이 참이 될때까지 코루틴의 실행을 질시 중지하는 명령
 * enumerator : 컬렉션을 반복하는데 사용, 컬렉션의 요소를 하나씩 차례로 검색하여, 모든 요소에 접근
 * foreach : 반복문을 수행하는 구문, 데이터 집합 요소를 하나씩 가져와 반복작업을 수행
 * euler : 3개의 각도로 이루어진 좌표계
@@ -51,5 +52,8 @@
 * attribute : attribute를 사용시 코드에 대한 추가 정보 제공, 특정 동작을 지정, 클래스, 메서드, 프로퍼티, 필드 등의 멤버에 적용
 * tmpro(textmeshpro) : 고성능 텍스트 렌더링 솔루션, Text component보다 많은 기능과 세밀한 제어 제공, 정교한 텍스트 표현
 * setactiveobjects : gameobject 배열의 활성화, 비활성화 상태를 일괄적으로 변경하는 메서드
+* mathf : 수학 관련 유틸리티 클래스, 여러 수학적인 계산, 값의 변환에 이용된다
+* onenable : 스크립트나 오브젝트가 활성화 될때 호출되는 함수
+* setactive : gameobject클래스의 메서드로, 오브젝트의 활성과 비활성화 상태를 변경하는데 사용된다
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
