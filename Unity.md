@@ -65,10 +65,14 @@
     * less : 값의 크기를 비교하여 참과 거짓을 판단한다, 왼쪽의 피연산자 값이 오른쪽의 피연산자의 값보다 작으면 참, 아니면 거짓을 판단하는 역할
     * equals : 왼쪽의 피연산자와 오른쪽의 피연산자의 값이 일치하는지 비교
     * notequal : 왼쪽의 피연산자와 오른쪽의 피연산자의 값이 서로 다른지를 비교
+* mask : 이미지나 요소의 특정 부분만을 선택적으로 표시, 나머지 부분을 가린다.
 * mask interacion : ui mask 컴포넌트에 사용되는 속성, 마스크된 ui요소와 다른 요소 간의 상호작용 제어
     * visible inside mask : 마스크된 영역 내에만 ui요소가 보인다, 마스크 외부 요소와 상호작용은 차단
     * visible outside mask : 마스크된 영역 내에만 ui요소가 보인다, 필요에 따라 외부 요소와 상호작용여부를 선택한다
     * visible inside mask but not interactable : 마스크된 영역 내에만 ui요소가 보인다, 마스크 내부 요소와의 상호작용 차단, 외부 요소와는 상호작용 가능
     * don't clip : 선택시 해당 ui는 마스크를 적용받지 않고, 화면 전체에 나타나다
+* getbuttondown : 버튼이 처음 눌렸을 때만 true를 반환하고, 이후 false를 반환
+* getbuttonup : 버튼이 처음 떼어졌을 때만 ture를 반환하고, 이후 false를 반환
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
+* <ani state에 여러개의 animation을 연결하면 우선 순위가 가장 높은 animation만 재생된다, unity의 animation system은 우선순위에 따라서 animation을 재생한다, 하나의 transition에 여러 animation을 연결 시, 마지막에 연결된 animation의 우선순위가 가장 높아지면서, 마지막 animation이 재생된다>
