@@ -54,6 +54,7 @@
 * setactiveobjects : gameobject 배열의 활성화, 비활성화 상태를 일괄적으로 변경하는 메서드
 * mathf : 수학 관련 유틸리티 클래스, 여러 수학적인 계산, 값의 변환에 이용된다
 * onenable : 스크립트나 오브젝트가 활성화 될때 호출되는 함수
+* ondisable : 해당 컴포넌트가 비활성화될 때 호출되어, 해당 컴포넌트가 다시 활성화될 때까지 실행되지 않는다
 * setactive : gameobject클래스의 메서드로, 오브젝트의 활성과 비활성화 상태를 변경하는데 사용된다
 * unityeditor.editorapplication.exitplaymode : unityeditor에서 현재 playmode를 종료하는데 사용되는 unityeditor의 정적 클래스 editorapplication의 멤버 메서드로, exitplaymode메서드로 실행 중인 플레이 모드를 종료한다
 * resources.load : 리소스 폴더 내의 파일을 찾아서 로드하여, 사용할 수 있는 오브젝트나 데이터를 반환한다
