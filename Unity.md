@@ -75,5 +75,13 @@
 * getbuttondown : 버튼이 처음 눌렸을 때만 true를 반환하고, 이후 false를 반환
 * getbuttonup : 버튼이 처음 떼어졌을 때만 ture를 반환하고, 이후 false를 반환
 * <서로 다른 자료형은 바로 형변환이 이루어지지 않는다>
+* updatedialog : 대화 시스템에서 대화 상자를 업데이트하는 기능을 수행하는 메서드나 함수
+* sorting layer : 객체들의 렌더링 순서를 관리하는 기능, 객체들을 앞/뒤로 정렬한다
+* collsion.contacts : 충돌이 발새한 모든 지점의 정보를 담고있는 배열, contacts는 구조체로 구성되어, 충돌 지점의 위치, 법선 벡터, 접촉면의 마찰력 등의 정보를 저장한다
+    * point : 충돌지점의 위치를 나타내는 Vector3 타입 속성
+    * normal : 충돌 지점의 법선 벡터를 나타내는 Vector3 타입 속성, 충돌한 두 객체 사이의 충돌 방향과 수직
+    * thiscollider : 충돌이 발생한 객체의 콜라이더를 나타내는 collider속성
+    * othercollider : 충돌이 발생한 상대 객체의 콜라이더를 나타내는 collider 타입 속성
+    * separation : 충돌 지점의 분리 값, 즉 두 객체의 분리 정도를 나타내는 float 타입의 속성
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
 * <ani state에 여러개의 animation을 연결하면 우선 순위가 가장 높은 animation만 재생된다, unity의 animation system은 우선순위에 따라서 animation을 재생한다, 하나의 transition에 여러 animation을 연결 시, 마지막에 연결된 animation의 우선순위가 가장 높아지면서, 마지막 animation이 재생된다>
