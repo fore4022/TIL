@@ -1,4 +1,4 @@
-# Unity
+# Unity 1
 # C#
 * enum : 상수 열거형
 * struct : 구조체
@@ -83,5 +83,12 @@
     * thiscollider : 충돌이 발생한 객체의 콜라이더를 나타내는 collider속성
     * othercollider : 충돌이 발생한 상대 객체의 콜라이더를 나타내는 collider 타입 속성
     * separation : 충돌 지점의 분리 값, 즉 두 객체의 분리 정도를 나타내는 float 타입의 속성
+* oncollision : 물리 충돌이 발생할 때 호출되는 함수(2d라면 oncollision(???)2d)
+    * oncollisionenter : 물체들이 처음으로 충돌할 때 호출, 충돌할 때 한번만 호출
+    * oncollisionstay : 물첻르이 충돌하고 있는 동안 계속해서 호출
+    * oncollisionexit : 물체들이 충돌하던 상태에서 분리될 때 호출
+* updatedialog : 대화 시스템이나 대화 ui를 업데이트하기 위해 사용되는 함수, 메서드
 * <오브젝트의 모듈을 가져오려면, component이후, 해당 모듈에 해당하는 변수를 만들어서 값을 할당해서 사용한다>
 * <ani state에 여러개의 animation을 연결하면 우선 순위가 가장 높은 animation만 재생된다, unity의 animation system은 우선순위에 따라서 animation을 재생한다, 하나의 transition에 여러 animation을 연결 시, 마지막에 연결된 animation의 우선순위가 가장 높아지면서, 마지막 animation이 재생된다>
+* <다른 오브젝트에서 public 함수를 호출하려면, 해당 오브젝트의 인스턴스 값을 가지고와서 인스턴스 값을 저장한 변수를 통해서 public 함수를 호출해 줄 수 있다>
+* <collider를 가진 객체끼리 부딪혔을 때 여러가지 정보를 받아올 수 있다>
