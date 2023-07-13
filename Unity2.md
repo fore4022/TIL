@@ -13,3 +13,5 @@
     * direction : ray 방향을 나타내는 vector3 변수
     * hitinfo : 충돌 정보 저장 raycasthit 변수
     * maxdistance : ray 최대 길이를 지정하는 부동소수점 변수
+* layer : 게임 오브젝트를 그붑화하고, 여려개의 layer에 속할 수 있다
+* tag : 오브젝트를 식별하는데 사용된다, 오브젝트당 하나의 tag를 가진다
